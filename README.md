@@ -1,5 +1,5 @@
 # 1. Introduction  
-This program is used to convert the AAS files into a suitable format for AAS-based cloud data acquisition and storage system, and was developed to be used in Windows 10 (and 11) environment to provide the user convenience. 
+This program is used to convert the AAS files into a suitable format for AAS-based cloud data acquisition & storage system and MOS(Manufacturing Operation System), and was developed to be used in Windows 10 (and 11) environment to provide the user convenience. 
 
 # 2. Installation
 ### Step 0
@@ -11,10 +11,9 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 
 ![h2p2](https://user-images.githubusercontent.com/114371609/214745542-bcc38336-b8ab-4709-939f-e44833ef7db6.png)
 
-
 ### Step 2
 * After downloading all the packages through the Package Checker program, run the 01.Start_AAS_Parser_WS.exe executable file.
-*  
+* The result is as follow:
 
 ![h2p3](https://user-images.githubusercontent.com/114371609/214744435-70c04c39-61ab-4cd7-97b6-a35dceeb0c46.png)
 
@@ -44,6 +43,25 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
  ### Step 5
  * Edit the downloaded files and upload them to the AAS server and Edge Gateway server.
   
-# 4. How to implement an AAS Model for AAS Solution.
- * Now.
+# 4. How to edit an AAS Model for utilizing this program.
+ ### Step 0
+ * Using the [AASX Package Explorer](https://github.com/admin-shell-io/aasx-package-explorer/releases) provided by [IDTA(Industrial Digital Twine Association)](https://industrialdigitaltwin.org/en/), you can easily create AAS models on Windows operating systems.
+ 
+ ### Step 1
+ * Create CloudDataSolution AAS in the AASX Package Explorer. 
+ * Then create CloudSolution Submodel and EdgeSolution Submodel. The submodels are composed of the following submodel elements.
+ * [Note] Value and valueType of all submodel elements (especially properties) must be filled in.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
