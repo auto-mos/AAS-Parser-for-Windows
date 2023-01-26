@@ -1,23 +1,43 @@
 # 1. Introduction  
 This program is used to convert the AAS files into a suitable format for AAS-based cloud data acquisition and storage system, and was developed to be used in Windows 10 (and 11) environment to provide the user convenience. 
-  
-# 2. Running on Windows  
- ##Stp1
- Firstly, convert the extension(.aasx) of an AAS model to XML using the AASX Package Explorer.
+
+# 2. Installation
+##Step 0
+* Put the downloaded files in C drive.
+
+##Step 1
+* Run the 00.PackageChecker.exe. In this progress, This executable checks the installed Python version and packages.
+* If the Python is not installed, Opens the Python download window. Available Python versions are 3.8.2~3.8.xx.
+
+![h2p2](https://user-images.githubusercontent.com/114371609/214745542-bcc38336-b8ab-4709-939f-e44833ef7db6.png)
+
+
+##Step 2
+* After downloading all the packages through the Package Checker program, run the 01.Start_AAS_Parser_WS.exe executable file. 
+
+![h2p3](https://user-images.githubusercontent.com/114371609/214744435-70c04c39-61ab-4cd7-97b6-a35dceeb0c46.png)
+
+# 3. Running on Windows
+
+ ##Step 0
+ * Click '01.Start_AAS_Parser_WS.exe' to run the server.
+
+ ##Step 1
+ * Firstly, convert the extension(.aasx) of an AAS model to XML using the AASX Package Explorer.
  
- ##Stp2
- Then you have to put the extension(.xml) into the AAS directory(C:\AAS_Parser_V20230105\aas). 
- Upload the XML file using the two buttons below.
+ ##Step 2
+ * Then you have to put the extension(.xml) into the AAS directory(C:\AAS_Parser_V20230105\aas). 
+ * Upload the XML file using the two buttons below.
 
- ##Stp3
- Wait for a while until the 3 conversion files(nodeset.xml, engineering.csv, syscfg.json) are created. 
- In the progress, you can see the creation process of the 3 conversion files through your command prompt screen. 
- You can also check it through the output log button on the left table.
+ ##Step 3
+ * Wait for a while until the 3 conversion files(nodeset.xml, engineering.csv, syscfg.json) are created. 
+ * In the progress, you can see the creation process of the 3 conversion files through your command prompt screen. 
+ * You can also check it through the output log button on the left table.
 
- ##Stp4
- Now you can download the 3 files created. Click the Download button on the left table.
+ ##Step 4
+ * Now you can download the 3 files created. Click the Download button on the left table.
   
-  ![h2s](https://user-images.githubusercontent.com/114371609/214740949-f8073ac3-b8e0-46a2-8866-446820d1506f.png)
+![h2p](https://user-images.githubusercontent.com/114371609/214742281-e6ceb7a2-358f-435c-8ea9-94a73b717d0d.png)
 
   
   
