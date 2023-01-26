@@ -41,27 +41,22 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 ![h2p](https://user-images.githubusercontent.com/114371609/214742281-e6ceb7a2-358f-435c-8ea9-94a73b717d0d.png)
 
  ### Step 5
- * Edit the downloaded files and upload them to the AAS server and Edge Gateway server.
+ * Edit the downloaded files(e.g. engineering.csv) and upload them to the AAS server and Edge Gateway server.
   
 # 4. How to edit an AAS Model for utilizing this program.
  ### Step 0
  * Using the [AASX Package Explorer](https://github.com/admin-shell-io/aasx-package-explorer/releases) provided by [IDTA(Industrial Digital Twine Association)](https://industrialdigitaltwin.org/en/), you can easily create AAS models on Windows operating systems.
+ * Create your own AAS model like below or Download the already created AAS template model.
  
  ### Step 1
  * Create CloudDataSolution AAS in the AASX Package Explorer. 
  * Then create CloudSolution Submodel and EdgeSolution Submodel. The submodels are composed of the following submodel elements.
- * [Note] Value and valueType of all submodel elements (especially properties) must be filled in.
+ * [Note 1] Value and valueType of all submodel elements (especially properties) must be filled in.
+ * [Note 2] If you have multiple field devices to communicate with the edge gateway, model it as follows.
 
-
-
-
-
-
-
-
-
-
-
+ ### Step 2
+ * Now you can convert your AAS model using the AAS Parser Web Server. 
+ * Follow the 3. Running on Windows guide to convert your AAS model.
 
 
 
