@@ -1,9 +1,26 @@
-# 1. 개요  
-본 문서는 AAS기반 제조 데이터 수집 및 저장 솔루션 중 엣지게이트웨이 설치 방법에 대해 설명합니다.  
+# 1. Introduction  
+This program is used to convert the AAS files into a suitable format for AAS-based cloud data acquisition and storage system, and was developed to be used in Windows 10 (and 11) environment to provide the user convenience. 
   
-# 2. 솔루션 설치 환경  
-엣지게이트웨이 솔루션은 Debian 9.4 (stretch) OS, intel CPU 환경에서 제작되었습니다.  
-권장 사양 및 기본 환경 구성은 다음과 같습니다.  
+# 2. Running on Windows  
+ ##Stp1
+ Firstly, convert the extension(.aasx) of an AAS model to XML using the AASX Package Explorer.
+ 
+ ##Stp2
+ Then you have to put the extension(.xml) into the AAS directory(C:\AAS_Parser_V20230105\aas). 
+ Upload the XML file using the two buttons below.
+
+ ##Stp3
+ Wait for a while until the 3 conversion files(nodeset.xml, engineering.csv, syscfg.json) are created. 
+ In the progress, you can see the creation process of the 3 conversion files through your command prompt screen. 
+ You can also check it through the output log button on the left table.
+
+ ##Stp4
+ Now you can download the 3 files created. Click the Download button on the left table.
+  
+  ![h2s](https://user-images.githubusercontent.com/114371609/214740949-f8073ac3-b8e0-46a2-8866-446820d1506f.png)
+
+  
+  
   
 ## PC 권장 사양  
 * Processor : i5 이상의 멀티코어 CPU  
