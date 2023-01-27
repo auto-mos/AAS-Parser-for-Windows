@@ -60,6 +60,11 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
  ### Step 2
  * Now you can convert your AAS model using the AAS Parser Web Server. 
  * Follow the **3. Running on Windows** guide to convert your AAS model.
+ * Example of template conversion result:
+ 
+![eg1](https://user-images.githubusercontent.com/114371609/214994448-75b7d748-723c-4dc2-a194-72723cfc58e2.png)
+
+![eg2](https://user-images.githubusercontent.com/114371609/214994455-f1fad61c-2be3-4cc7-9abd-1315c040b958.png)
 
 
 
