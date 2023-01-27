@@ -66,5 +66,3 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 
 ![eg2](https://user-images.githubusercontent.com/114371609/214994455-f1fad61c-2be3-4cc7-9abd-1315c040b958.png)
 
-
-
