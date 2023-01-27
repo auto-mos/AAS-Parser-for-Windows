@@ -9,7 +9,8 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 * Run the 00.PackageChecker.exe. In this progress, This executable checks the installed Python version and packages.
 * If the Python is not installed, Opens the Python download window. Available Python versions are 3.8.2~3.8.xx.
 
-![h2p2](https://user-images.githubusercontent.com/114371609/214745542-bcc38336-b8ab-4709-939f-e44833ef7db6.png)
+![gg1](https://user-images.githubusercontent.com/114371609/214993379-0ab99484-901d-46f8-82c7-43ef9a9d9cff.png)
+
 
 ### Step 2
 * After downloading all the packages through the Package Checker program, run the 01.Start_AAS_Parser_WS.exe executable file.
@@ -54,9 +55,11 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
  * [Note 1] Value and valueType of all submodel elements (especially properties) must be filled in.
  * [Note 2] If you have multiple field devices to communicate with the edge gateway, model it as follows.
 
+![ed0](https://user-images.githubusercontent.com/114371609/214991995-f6a65e31-7716-44cf-a552-1046d9712686.png)
+
  ### Step 2
  * Now you can convert your AAS model using the AAS Parser Web Server. 
- * Follow the 3. Running on Windows guide to convert your AAS model.
+ * Follow the **3. Running on Windows** guide to convert your AAS model.
 
 
 
