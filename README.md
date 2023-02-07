@@ -7,7 +7,7 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 
 ### Step 1
 * Run the 00.PackageChecker.exe. In this progress, This executable checks the installed Python version and packages.
-* If the Python is not installed, Opens the Python download window. Available Python versions are 3.8.2~3.8.xx.
+* If the Python is not installed, Opens the Python download window. Available Python versions are 3.8.2~3.11.xx.
 
 ![gg1](https://user-images.githubusercontent.com/114371609/214993379-0ab99484-901d-46f8-82c7-43ef9a9d9cff.png)
 
