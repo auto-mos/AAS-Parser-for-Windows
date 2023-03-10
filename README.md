@@ -18,6 +18,23 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 
 ![h2p3](https://user-images.githubusercontent.com/114371609/214744435-70c04c39-61ab-4cd7-97b6-a35dceeb0c46.png)
 
+### [Note] Create nodeset.xml
+Check the module version to create the Noteset.xml file.
+- $ pip3 list
+
+If you don't have the modules below, Install them.
+
+|modul_name|version|Uninstall commands|Install commands|
+|----------|-------|------------------|----------------|
+|asyncua|0.9.14|$pip3 uninstall asyncua|$pip3 install asyncua==0.9.14|
+|xmlschema|1.1.1|$pip3 uninstall xmlschema|$pip3 install xmlschema==1.1.1|
+|xmltodict|0.12.0|$pip3 uninstall xmltodict|$pip3 install xmltodict==0.12.0|
+|asyncio|3.4.3|$pip3 uninstall asyncio|$pip3 install asyncio==3.4.3|
+
+Check the installed versions again with the command below.
+- $ pip3 list
+
+
 # 3. Running on Windows
 
  ### Step 0
