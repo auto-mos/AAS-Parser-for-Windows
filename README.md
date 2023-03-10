@@ -19,7 +19,7 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 ![h2p3](https://user-images.githubusercontent.com/114371609/214744435-70c04c39-61ab-4cd7-97b6-a35dceeb0c46.png)
 
 ### [Note] Create nodeset.xml
-Check the module version to create the Noteset.xml file.
+Value tags may not be created if you are using the latest module version. Check the module version to create the nodeset.xml file.
 - $ pip3 list
 
 If you don't have the modules below, Install them.
