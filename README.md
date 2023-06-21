@@ -83,3 +83,28 @@ Check the installed versions again with the command below.
 
 ![eg2](https://user-images.githubusercontent.com/114371609/214994455-f1fad61c-2be3-4cc7-9abd-1315c040b958.png)
 
+# 5. How to edit configuration files  
+### Step 1 : syscfg.json  
+* This file is for applying basic communication information.  
+* If you create CloudDataSolution AAS and fill contents successfully, Basic Configuration will be created as below :  
+![image](https://github.com/auto-mos/AAS-Parser-for-Windows/assets/114371609/75470303-e9f9-4102-b125-74324c4beaa9)  
+* But if you get empty syscfg.json file, you just can fill contents manually.  
+* (Recommendation : editing AAS file and try again.)  
+
+### Step 2 : engineering.csv  
+* This file is for mapping field data tags with AAS tags.  
+![image](https://github.com/auto-mos/AAS-Parser-for-Windows/assets/114371609/ba5c0053-0474-4ede-a46d-f6eda3afa4ab)   
+* A, E, F Columns are created automatically and B, C, D Columns are needed to be filled manually.  
+* Details are as follows :  
+  A : AAS Tag name from AAS file. This doesn't need to be modified.  
+  B : Gateway name. This column should be filled with the gateway name (defined in AAS) from which the data will be collected.  
+  C : Device name. This column should be filled with the field device name (defined in AAS) from which the data will be collected.  
+  D : Field Tag name. This column should be filled with the field data tag name(OPCUA). It contains namespace and tag identifier.  
+  E : Sampling rate. Basic value is 50 and engineer can change this column with appropriate value.  
+  F : Array index. If field data tag is an array, engineer should fill this column with array index. But field data tag is not an array, it should be filled with the value : -1(default value).
+  
+### Step 3 : nodeset.xml  
+* This file is the OPCUA information model.  
+* It is recommended not to modify it arbitrarily.  
+  
+  
