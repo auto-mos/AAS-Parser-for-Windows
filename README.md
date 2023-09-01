@@ -1,6 +1,6 @@
 # 0. AAS 작성 시 참고사항  
 OPCUA 태그 정보를 이용하여 AAS 작성 시, 데이터 타입은 아래와 같이 변환되니 참고하여 작성바랍니다.  
-<AAS Datatype> -> <OPCUA Datatype>  
+[AAS Datatype -> OPCUA Datatype]  
 nonNegativeInteger -> UInt32  
 unsignedLong -> UInt64  
 unsignedShort -> UInt16  
