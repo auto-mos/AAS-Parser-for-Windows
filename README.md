@@ -1,3 +1,13 @@
+# 0. AAS 작성 시 참고사항  
+OPCUA 태그 정보를 이용하여 AAS 작성 시, 데이터 타입은 아래와 같이 변환되니 참고하여 작성바랍니다.  
+<AAS Datatype> -> <OPCUA Datatype>  
+nonNegativeInteger -> UInt32  
+unsignedLong -> UInt64  
+unsignedShort -> UInt16  
+Byte/unsignedByte -> Byte  
+Integer/Int -> Int32  
+Short -> Int16  
+
 # 1. Introduction  
 This program is used to convert the AAS files into a suitable format for AAS-based cloud data acquisition & storage system and MOS(Manufacturing Operation System), and was developed to be used in Windows 10 (and 11) environment to provide the user convenience. 
 
