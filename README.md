@@ -13,7 +13,8 @@ This program is used to convert the AAS files into a suitable format for AAS-bas
 
 # 2. Installation
 ### Step 0
-* Put the downloaded files in C drive.
+* Put the downloaded files in C drive.  
+![image](https://github.com/auto-mos/AAS-Parser-for-Windows/assets/114371609/a6aec858-d440-475c-a00d-ff890765846c)  
 
 ### Step 1
 * Run the 00.PackageChecker.exe. In this progress, This executable checks the installed Python version and packages.
